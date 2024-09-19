@@ -38,7 +38,7 @@ document.getElementById('button-login')
         // bad way to validate
         if (phoneNumber === '5' && pinCode === '1234') {
             console.log('You Can youse Website')
-            window.location.href = '/home.html';
+            window.location.href = './home.html';
         }
         else {
             alert('wrong phone number or pin')
